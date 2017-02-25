@@ -1,0 +1,8 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <img src = "" quality = "30" width = "200" height = "150">
+    <input type = "button" value = "return" onClick = "history.go(-1)">
+  </body>
+</html>

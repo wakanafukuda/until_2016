@@ -1,0 +1,20 @@
+***ROSLIB.Topic***
+
+--Class Summary--
+
+ROSLIB.Topic(options)
+ROS内のトピックにPublishしたりSubscribeしたりする
+
+--Method Summary--
+advertise()
+topicにpublisher記録する
+
+publish(message)
+メッセージをpublishする
+
+subscribe(callback)
+コールバック関数
+unadvertise()
+
+unsubscribe()
+

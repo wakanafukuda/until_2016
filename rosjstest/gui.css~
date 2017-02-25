@@ -1,0 +1,27 @@
+body {
+    topmargin: 20;
+    leftmargin: 20;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+div.blocka {
+    font-size: 12pt; 
+    float: left;
+    width: 20%;
+}
+
+div.blockb {
+    float: left;
+    width: 20%;
+}
+
+div.blockc {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 60%; 
+}
+
+
+

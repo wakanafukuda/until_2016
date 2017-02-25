@@ -1,0 +1,8 @@
+<launch>
+	<env name="ROS_MASTER_URI" value="http://192.168.0.38:11311" />
+
+	<machine name="37" address="192.168.0.37" env-loader= /> //client
+	<machine name="38" address="192.168.0.38" env-loader= /> //server
+
+
+	<group ns="37">

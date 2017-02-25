@@ -1,0 +1,15 @@
+#include "ros/ros.h"
+#include "std_msgs/Int16.h"
+
+void chatterCallBack(const std_msgs::Int16& msg){
+  ROS_INFO("I heared : [ %d ]",msg->data);
+}
+
+int main(int argc, char** argv){
+  ros::init(argc,argv,"operate_robot");
+
+  ros::NodeHandle n;
+
+  ros::Publisher ino_pub = n.advertise<std_msgs::Int16>("send_arduino",1000);
+  ros::Subscriber
+  ros::Subscriber sub_state = n.subscribe("state",1000,stopCallBack);
